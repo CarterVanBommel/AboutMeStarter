@@ -9,12 +9,12 @@ public class AboutMe {
 	public static void main(String[] args) {
 
 		// Declaring the variables
-		final String MY_NAME = "Carter";
+		String myName = "Carter";
 		int myAge = 16;
 		double myHeightInMetres = 1.78;
 		
         // Print the values
-        System.out.println("Hi, my name is " + MY_NAME + ".");
+        System.out.println("Hi, my name is " + myName + ".");
         System.out.println("I am " + myAge + " years old.");
         System.out.println("My height is " + myHeightInMetres + " m.");
 
